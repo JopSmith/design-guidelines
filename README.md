@@ -12,7 +12,7 @@ This repository contains comprehensive, structured documentation for the Mosaic 
 mds-guidelines/
 ├── specs/
 │   ├── components/        # 94 component specifications
-│   ├── patterns/          # 7 design pattern specifications
+│   ├── patterns/          # 26 design pattern specifications
 │   └── templates/         # 1 layout template specification
 ├── CLAUDE.md              # AI assistant instructions
 ├── README.md              # This file
@@ -29,15 +29,35 @@ Detailed specifications for all MDS UI components including:
 - Feedback (Toast, Dialog, Message, etc.)
 - And many more...
 
-### Patterns (7 specs)
+### Patterns (26 specs)
 Interaction and UI patterns including:
 - **Colour Indicators** - Status, priority, action, and charting colours
-- **Empty States** - 12 variants for different scenarios
-- **Empty States (API Errors)** - 7 API error states
-- **Generative AI** - AI interaction patterns
-- **Modal Dialogs** - 4 modal dialog types
-- **Non-Modal Dialogs** - 2 non-modal dialog types
-- **Social Media Interactions** - News and chat interactions
+- **Context Panel** - Persistent conversation history and cross-session navigation
+- **Contextual Indicators** - System action transparency during tool usage
+- **Conversation Branching** - Alternative conversation path exploration
+- **Conversation Memory Indicators** - Stored data awareness and user control
+- **Conversation Starters** - Predefined prompts to reduce new-session friction
+- **Editing Controls** - Modify or retry interactions in iterative workflows
+- **Empty States** - 12 variants for different no-content scenarios
+- **Empty States (API Errors)** - 7 API error states (502, 503, 504, 500, 401, offline, general)
+- **Feedback Loop** - User feedback collection on system outputs
+- **Follow-up Prompts** - Contextual suggestions to guide continued interaction
+- **Generative AI** - AI interaction patterns with AILabel, AIButton, and AI Aura
+- **Inline Actions** - Per-message controls (copy, edit, regenerate)
+- **Inline Forms** - Structured input fields within conversation flow
+- **Input Composer** - Multi-modal input area (text, voice, files, images, commands)
+- **Instruction Banners** - Dynamic system capability and constraint communication
+- **Message Bubbles** - Chronological, role-separated conversation structure
+- **Modal Dialogs** - 4 focused overlay types (passive, transactional, acknowledgement, progress)
+- **Mode Switcher** - System behaviour and role switching
+- **Multi-Media Blocks** - Non-text input and output rendering
+- **Non-Modal Dialogs** - 2 lightweight contextual overlays (passive, transactional)
+- **Quick Reply Chips** - Predefined tappable response options
+- **Rich Content Cards** - Structured data rendered as interactive cards
+- **Social Media Interactions** - News and chat interaction actions (like, comment, save, copy)
+- **Split View** - Simultaneous conversation and output display
+- **Stateful Task Panel** - Multi-step task progress tracking
+- **Typing Indicator** - Active response generation signal
 
 ### Templates (1 spec)
 Structural layout templates including:
