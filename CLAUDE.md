@@ -1,13 +1,13 @@
-# MDS Guidelines - AI Instructions
+# Design Guidelines - AI Instructions
 
 ## Project Overview
 
-This directory contains structured documentation for the Mosaic Design System (MDS) covering components, patterns, and templates. The goal is to make design system knowledge LLM-readable so that AI assistants can help developers build MDS-compliant applications.
+This directory contains structured documentation for the design system components, patterns, and templates. The goal is to make design system knowledge LLM-readable so that AI assistants can help developers build IX-compliant applications.
 
 ## Directory Structure
 
 ```
-mds-guidelines/
+design-guidelines/
 ├── specs/
 │   ├── components/        # Structured markdown specs for each component (94 specs)
 │   ├── patterns/          # Structured markdown specs for design patterns (7 specs)
@@ -192,13 +192,13 @@ When building applications using MDS:
 ## Guidelines Sources
 
 Primary sources: Word documents
-- Components: C:\Users\Jonathan.Smith\mds-guidelines\component-guidelines.docx
-- Patterns: C:\Users\Jonathan.Smith\mds-guidelines\pattern-guidelines.docx
-- Templates: C:\Users\Jonathan.Smith\mds-guidelines\template-guidelines.docx
+- Components: C:\Users\Jonathan.Smith\design-guidelines\component-guidelines.docx
+- Patterns: C:\Users\Jonathan.Smith\design-guidelines\pattern-guidelines.docx
+- Templates: C:\Users\Jonathan.Smith\design-guidelines\template-guidelines.docx
 
 ## Notes for AI Assistants
 
-- These specs are the source of truth for MDS components, patterns, and templates
+- These specs are the source of truth for components, patterns, and templates
 - When in doubt about usage, refer to the relevant spec (component, pattern, or template)
 - If a spec is missing or incomplete, ask the user for the source document
 - Keep specs up-to-date as guidelines evolve
