@@ -1,15 +1,15 @@
-# MDS Guidelines
+# Design Guidelines
 
-> Structured documentation for the Mosaic Design System (MDS) made LLM-readable
+> Structured documentation for the IX made LLM-readable
 
 ## Overview
 
-This repository contains comprehensive, structured documentation for the Mosaic Design System covering components, patterns, and templates. The goal is to make design system knowledge accessible to AI assistants so they can help developers build MDS-compliant applications.
+This repository contains comprehensive, structured documentation for design system components, patterns, and templates. The goal is to make design system knowledge accessible to AI assistants so they can help developers build IX-compliant applications.
 
 ## 📁 Repository Structure
 
 ```
-mds-guidelines/
+design-guidelines/
 ├── specs/
 │   ├── components/        # 94 component specifications
 │   ├── patterns/          # 26 design pattern specifications
@@ -88,7 +88,7 @@ See [CLAUDE.md](./CLAUDE.md) for detailed instructions on:
 
 ## 📖 Usage
 
-When building with MDS, always refer to the relevant specs:
+When building with IX, always refer to the relevant specs:
 
 1. **Components** (`specs/components/`) - For individual UI element guidance
 2. **Patterns** (`specs/patterns/`) - For interaction paradigms and UI conventions
@@ -114,10 +114,10 @@ When adding or updating specs:
 4. Mark incomplete sections appropriately
 5. Clean up temporary files after conversion
 
-## 🏢 About Mosaic Design System
+## 🏢 About
 
-The Mosaic Design System (MDS) is a comprehensive design system that provides a consistent framework for building user interfaces across applications.
+This repository contains comprehensive documentation that provides a consistent framework for building user interfaces across applications.
 
 ---
 
-**Note:** This repository contains structured markdown specifications derived from official MDS documentation. Always refer to these specs as the source of truth for component behavior, pattern usage, and layout structures.
+**Note:** This repository contains structured markdown specifications derived from experience and best practice. Always refer to these specs as the source of truth for component behavior, pattern usage, and layout structures.
